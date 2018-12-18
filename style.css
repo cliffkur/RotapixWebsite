@@ -1,7 +1,7 @@
 /* start of global css codes */
 
-body,html{
-  font-family: "Roboto", sans-serif!important;
+body{
+  font-family: "Nunito Sans", sans-serif;!important;
 }
 
 .block-level {
@@ -145,7 +145,7 @@ body,html{
 
 header{
   color:white;
-  background-image: url(images/splash_bg.jpg);
+  background-image: url(images/splash_bg_dark.jpg);
   background-size: cover;
 }
 
@@ -173,7 +173,9 @@ nav ul li{
 	text-decoration:none;
 }
 .generate-seo-button:hover {
-	background-color:#166a9e;
+  color:white;
+  text-decoration: none;
+  background-color:#166a9e;
 }
 .generate-seo-button:active {
 	position:relative;
