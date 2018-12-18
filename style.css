@@ -12,6 +12,26 @@ body{
     float: left;
 }
 
+.black{
+  background-color: black;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
 .drop-shadow {
     background: #9479fa;
 }
@@ -44,8 +64,20 @@ body{
 .bordered-link:active {
     border-color: #f09dab;
 }
+
 /* end of global css codes */
 
-.test1{
-  font-weight: 400;
+header{
+  color:white;
+  background-image: url(images/splash_bg.jpg);
+  background-size: cover;
+}
+
+.phonebar{
+  text-align: right;
+}
+
+.phone-icon{
+  height:20px;
+  width:20px;
 }
