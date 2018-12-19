@@ -248,6 +248,14 @@ nav ul li{
   transition: 0.5s;
 }
 
+#sec ul li:hover h3 {
+  color: #63B7E6;
+}
+
+#sec ul li:hover p {
+  color: black;
+}
+
 #sec ul li span {
   font-size: 2.6em;
   display: block;
@@ -266,7 +274,7 @@ nav ul li{
 }
 
 #sec ul li p {
-  color: black;
+  color: #A2A2A2;
   text-align: left;
   font-size: 16px;
   line-height: 26px;
@@ -278,3 +286,31 @@ nav ul li{
 }
 
 /* end css code for card hover effect */
+
+.hollow-button {
+	-moz-box-shadow: 0px 0px 0px 2px #ffffff;
+	-webkit-box-shadow: 0px 0px 0px 2px #ffffff;
+	box-shadow: 0px 0px 0px 2px #ffffff;
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	padding:8px 13px;
+	text-decoration:none;
+    margin-bottom: 50px;
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hollow-button:hover {
+	background-color:white;
+    text-decoration: none;
+    color:#63B7E6;
+    transition: 0.5s;
+}
+.hollow-button:active {
+	position:relative;
+	top:1px;
+}
