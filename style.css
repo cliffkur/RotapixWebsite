@@ -181,3 +181,12 @@ nav ul li{
 	position:relative;
 	top:1px;
 }
+
+.what-is-seo p{
+  position: absolute;
+  top:20%;
+}
+
+.imac-content{
+  width: 100%;
+}
