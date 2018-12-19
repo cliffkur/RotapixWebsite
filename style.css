@@ -145,7 +145,27 @@ body{
   margin-bottom: 50px;
 }
 
-.padding-bottom-150{
+.padding-top-10{
+  margin-top: 10px;
+}
+
+.padding-top-20{
+  margin-top: 20px;
+}
+
+.padding-top-30{
+  margin-top: 30px;
+}
+
+.padding-top-40{
+  margin-top: 40px;
+}
+
+.padding-top-50{
+  margin-top: 50px;
+}
+
+.ppadding-bottom-150{
   padding-bottom: 150px;
 }
 
@@ -294,8 +314,9 @@ nav ul li{
 	background-color:transparent;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#fff;
 	font-size:19px;
+    font-weight:600;
 	padding:8px 13px;
 	text-decoration:none;
     margin-bottom: 50px;
