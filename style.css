@@ -190,6 +190,7 @@ hr{
 
 .hideDiv{
   display:none;
+  transition: all 0.5s ease-in-out;
 }
 
 /* end of global css codes */
@@ -409,8 +410,23 @@ nav ul li{
   font-size: 24px;
 }
 
+.testimonial-content-name{
+  font-size:30px;
+  font-weight: bold;
+}
+
+.testimonial-content-title{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.testimonial-content{
+  font-size:18px;
+}
+
 .logo{
   height:40%;
+  opacity:0.7;
 }
 
 .footer{
