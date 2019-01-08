@@ -20,6 +20,9 @@ body{
   color:black;
 }
 
+.font-bold{
+  font-weight: bold;
+}
 
 .align-left{
   text-align: left;
@@ -172,6 +175,10 @@ body{
   margin-top: 50px;
 }
 
+.margin-top-minus-190{
+  margin-top:-190px;
+}
+
 .padding-bottom-150{
   padding-bottom: 150px;
 }
@@ -243,6 +250,10 @@ nav ul li{
 
 .why-choose-rotapix{
   background-color: #bcdee7;
+}
+
+.why-choose-subheading{
+  font-size:24px;
 }
 
 /* start css code for card hover effect */
@@ -510,8 +521,4 @@ nav ul li{
 .credits a:hover{
   color:#f25c75;
   text-decoration: none;
-}
-
-.margin-top-minus-190{
-  margin-top:-190px;
 }
