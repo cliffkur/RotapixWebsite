@@ -423,6 +423,11 @@ nav ul li{
   height:20px;
 }
 
+.contact-us-email-logo{
+  width:22px;
+  height:18px;
+}
+
 .social-logo{
   width:45px;
   margin-right: 10px;
@@ -441,6 +446,42 @@ nav ul li{
 -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
   transition: 0.5s;
+}
+
+.message-us input[type=text]{
+  width: 70%;
+  padding: 12px 12px;
+  margin: 0 0 8px 0;
+  border-radius:4px;
+  border: none;
+}
+
+.message-us textarea{
+  width: 70%;
+  height:130px;
+  padding: 12px 12px;
+  margin: 8px 0;
+  border-radius:4px;
+  border:none;
+}
+
+.send-button{
+  background-color:#f25c75;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #f25c75;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:16px;
+	padding:3px 40px;
+    margin:8px 0;
+	text-decoration:none;
+}
+
+.send-button:hover{
+  background-color:#c74c60;
 }
 
 .credits ul{
