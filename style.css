@@ -20,9 +20,6 @@ body{
   color:black;
 }
 
-.vertical-middle{
-  vertical-align: middle;
-}
 
 .align-left{
   text-align: left;
@@ -204,10 +201,6 @@ header{
 .phone-icon{
   height:20px;
   width:20px;
-}
-
-.rotapix-logo{
-  
 }
 
 nav ul li{
@@ -476,7 +469,6 @@ nav ul li{
   width: 70%;
   height:130px;
   padding: 12px 12px;
-  margin: 8px 0;
   border-radius:4px;
   border:none;
 }
@@ -518,5 +510,8 @@ nav ul li{
 .credits a:hover{
   color:#f25c75;
   text-decoration: none;
-  
+}
+
+.margin-top-minus-190{
+  margin-top:-190px;
 }
