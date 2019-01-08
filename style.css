@@ -82,7 +82,13 @@ body{
 }
 
 .white-link{
-    color:white;  
+    color:white;
+    transition: all 0.1s ease-in-out;
+}
+
+.pink-hover:hover{
+  color:#f25c75;
+  text-decoration: none;
 }
 
 .margin-right-10{
@@ -269,16 +275,13 @@ nav ul li{
 #sec ul li {
   padding: 40px;
   width: 300px;
-
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
   background-color: white;
   margin-right:50px;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* need fixing : shadow animation off-hover*/
@@ -361,6 +364,17 @@ nav ul li{
   font-size: 25px;
 }
 
+.hover-float{
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-float:hover {
+-webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.32), 0px 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.5s;
+}
+
 .hollow-button-black {
 	-moz-box-shadow: 0px 0px 0px 2px #ffffff;
 	-webkit-box-shadow: 0px 0px 0px 2px #ffffff;
@@ -404,6 +418,11 @@ nav ul li{
   color:white;
 }
 
+.contact-us-phone-logo{
+  width:20px;
+  height:20px;
+}
+
 .social-logo{
   width:45px;
   margin-right: 10px;
@@ -412,4 +431,35 @@ nav ul li{
 .footer-header{
   font-weight: 700;
   font-size: 24px;
+}
+
+.social-float{
+  transition: all 0.3s ease-in-out;
+}
+
+.social-float:hover {
+-webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  transition: 0.5s;
+}
+
+.credits ul{
+  margin-left:-47px;
+}
+
+.credits li{
+  display:inline;
+}
+
+.credits li a{
+  color:white;
+  margin: 0 5px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.credits a:hover{
+  color:#f25c75;
+  text-decoration: none;
+  
 }
